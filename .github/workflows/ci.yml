@@ -15,8 +15,12 @@ jobs:
         id: update
         shell: bash
         run: |
+          ls
           pip install virtualenv && virtualenv --python=python3 venv && source venv/bin/activate && pip install -r requirements.txt  && python3 proxy-scrapper.py
-          
+          ls
+           python3 proxy-scrapper.py
+           ls
+            python proxy-scrapper.py
           git config --global user.email "rushiranpise17@gmail.com"
           git config --global user.name "Rushi Ranpise"
           git config --global color.ui true
