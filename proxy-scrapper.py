@@ -22,7 +22,7 @@ def create_proxy_record(address, port, type, enabled):
     proxy_record['rangeRequestsSupported'] = True
     proxy_record['filter'] = None
     proxy_record['pac'] = False
-    proxy_record['reconnectSupported'] = False
+    proxy_record['reconnectSupported'] = True
     proxy_record['enabled'] = enabled
     json_data = proxy_record
     return json_data
