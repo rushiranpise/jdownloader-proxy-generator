@@ -51,7 +51,7 @@ def get_proxies_from_free_proxy_net():
     return proxy_list
 
 def get_proxies_from_proxyscan_io():
-    proxy_site_url = 'https://www.proxyscan.io/api/proxy?last_check=600&ping=100&limit=500&type=socks4,socks5,https'
+    proxy_site_url = 'https://www.proxyscan.io/api/proxy?last_check=600&ping=100&limit=500&type=socks4,socks5,https,http'
     res = requests.get(proxy_site_url, headers={'User-Agent': user_agent})
     proxies = json.loads(res.text)
     proxy_list = list()
@@ -61,6 +61,8 @@ def get_proxies_from_proxyscan_io():
                 item["Type"] = "SOCKS5"
             else:
                 item["Type"] = "HTTPS"
+            else:
+                item["Type"] = "HTTP"    
         else:
             item["Type"] = item["Type"][0].upper()
         proxy_list.append(
