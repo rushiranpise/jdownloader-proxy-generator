@@ -60,9 +60,7 @@ def get_proxies_from_proxyscan_io():
             if "SOCKS5" in item["Type"]:
                 item["Type"] = "SOCKS5"
             else:
-                item["Type"] = "HTTPS"
-            else:
-                item["Type"] = "HTTP"    
+                item["Type"] = "HTTPS" 
         else:
             item["Type"] = item["Type"][0].upper()
         proxy_list.append(
