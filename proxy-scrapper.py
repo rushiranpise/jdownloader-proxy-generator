@@ -33,25 +33,8 @@ def create_json_structure(proxies):
     proxylist_json_structure["customProxyList"] = proxies
     return proxylist_json_structure
 
-
-def get_proxies_from_free_proxy_net():
-    proxy_site_url = 'https://socks-proxy.net/'
-    res = requests.get(proxy_site_url, headers={'User-Agent': user_agent})
-    soup = BeautifulSoup(res.text, "lxml")
-    proxy_list = list()
-    for items in soup.select("#proxylisttable tbody tr"):
-        proxy_definition = []
-        for item in items.select("td")[:8]:
-            proxy_definition.append(item.text)
-        proxy_list.append(
-            create_proxy_record(
-                type=proxy_definition[4].upper(), address=proxy_definition[0], port=int(proxy_definition[1]), enabled=True
-            )
-        )
-    return proxy_list
-
 def get_proxies_from_proxyscan_io():
-    proxy_site_url = 'https://www.proxyscan.io/api/proxy?last_check=600&ping=100&limit=500&type=socks4,socks5,https,http'
+    proxy_site_url = 'https://www.proxyscan.io/api/proxy?ping=100&limit=1000'
     res = requests.get(proxy_site_url, headers={'User-Agent': user_agent})
     proxies = json.loads(res.text)
     proxy_list = list()
@@ -68,12 +51,10 @@ def get_proxies_from_proxyscan_io():
                 type=item["Type"], address=item["Ip"], port=item["Port"], enabled=True
             )
         )
-    del proxy_list[-1]
     return proxy_list
 
 proxy_list = list([create_proxy_record(type="NONE", address=None, port=80, enabled=True)])
 proxy_list = proxy_list + get_proxies_from_proxyscan_io()
-proxy_list = proxy_list + get_proxies_from_free_proxy_net()
 json_output = create_json_structure(proxy_list)
 with open(filename, 'w') as f:
     json.dump(json_output, f, indent=2)
