@@ -1,0 +1,25 @@
+name: CI
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 16 * * *"
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Update Proxies
+        id: update
+        shell: bash
+        run: |
+          virtualenv --python=python3 venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+          python3 proxy-scrapper.py
+          git config --global user.email "rushiranpise17@gmail.com"
+          git config --global user.name "Rushi Ranpise"
+          git config --global color.ui true
+          git status && git add . && git commit -m "Updated Proxies on $(date -u +"%D")" && git push || echo done
