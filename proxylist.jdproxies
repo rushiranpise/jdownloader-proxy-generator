@@ -1,0 +1,344 @@
+{
+  "customProxyList": [
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 80,
+        "address": null,
+        "type": "NONE",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 1080,
+        "address": "41.149.135.34",
+        "type": "SOCKS4",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 4145,
+        "address": "184.181.217.194",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 4145,
+        "address": "72.195.34.58",
+        "type": "SOCKS4",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 5678,
+        "address": "179.96.251.161",
+        "type": "SOCKS4",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 31034,
+        "address": "72.49.49.11",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 59166,
+        "address": "160.119.127.43",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 14282,
+        "address": "192.252.208.70",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 4145,
+        "address": "192.111.138.29",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 4145,
+        "address": "199.229.254.129",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 4145,
+        "address": "187.177.30.154",
+        "type": "SOCKS4",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 15280,
+        "address": "184.178.172.18",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 4145,
+        "address": "184.181.217.213",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 4145,
+        "address": "72.217.216.239",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 18301,
+        "address": "192.111.135.18",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 21002,
+        "address": "141.94.254.138",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 1099,
+        "address": "82.103.118.42",
+        "type": "SOCKS4",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 1080,
+        "address": "209.94.84.65",
+        "type": "SOCKS4",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 4145,
+        "address": "184.181.217.206",
+        "type": "SOCKS5",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    },
+    {
+      "proxy": {
+        "username": null,
+        "password": null,
+        "port": 4145,
+        "address": "192.111.134.10",
+        "type": "SOCKS4",
+        "preferNativeImplementation": false,
+        "resolveHostName": false,
+        "connectMethodPreferred": false
+      },
+      "rangeRequestsSupported": true,
+      "filter": null,
+      "pac": false,
+      "reconnectSupported": false,
+      "enabled": true
+    }
+  ]
+}
